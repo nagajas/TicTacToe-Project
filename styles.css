@@ -54,6 +54,7 @@ h1 {
   font-size: 18px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
+  
 }
 
 #restartButton:hover {
@@ -65,4 +66,20 @@ h1 {
 #msg {
   margin-top: 30px;
   text-align: center;
+}
+@media (max-width: 576px){
+  #board {
+    width: auto;
+    height: auto;
+  }
+  .cell {
+    width: auto;
+    height: 100px;
+  }
+  #restartButton {
+    font-size: 1.5rem;
+  }
+  #msg {
+    font-size: 2rem;
+  }
 }
